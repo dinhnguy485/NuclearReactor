@@ -56,17 +56,18 @@ namespace NuclearReactor
             ReactorStableLabel.Text = "Meltdown Hapepening";
             ReactorStableLabel.ForeColor = Color.Red;
 
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
 
             Reactor1.BackColor = Color.White;
             Reactor2.BackColor = Color.White;
             ReactorStableLabel.BackColor = Color.Red;
             ReactorStableLabel.ForeColor = Color.Yellow;
+        
 
 
 
             Refresh();
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
 
             Reactor1.BackColor = Color.Red;
             Reactor2.BackColor = Color.Red;
@@ -75,7 +76,7 @@ namespace NuclearReactor
 
 
             Refresh();
-            Thread.Sleep(1000);
+            Thread.Sleep(500);
 
             Reactor1.BackColor = Color.White;
             Reactor2.BackColor = Color.White;
